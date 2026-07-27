@@ -7,7 +7,7 @@ cask "dns-easy-switcher" do
     desc "Menu bar app to easily switch between DNS providers"
     homepage "https://github.com/glinford/dns-easy-switcher"
   
-    depends_on macos: ">= :mojave"
+    depends_on macos: :mojave
   
     app "DNS Easy Switcher.app"
   
